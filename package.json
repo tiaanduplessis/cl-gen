@@ -1,0 +1,34 @@
+{
+  "name": "cl-gen",
+  "version": "1.0.0",
+  "description": "Generate markdown changelog from git commits",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/tiaanduplessis/cl-gen",
+    "type": "git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/cl-gen",
+  "bugs": "https://github.com/tiaanduplessis/cl-gen",
+  "main": "index.js",
+  "bin": "index.js",
+  "files": ["index.js"],
+  "scripts": {
+    "test": "jest",
+    "format": "prettier-standard index.js",
+    "start": "npm run test",
+    "precommit": "npm test",
+    "pretest": "npm run format"
+  },
+  "keywords": ["changelog", "cl", "generator", "markdown"],
+  "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "jest": "^21.0.2",
+    "prettier-standard": "^6.0.0"
+  },
+  "dependencies": {
+    "cac": "^4.2.1",
+    "is-semver": "^1.0.7",
+    "semver-sort": "^0.0.4"
+  }
+}
