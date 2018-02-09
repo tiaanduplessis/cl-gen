@@ -55,6 +55,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/cl-gen.svg)](https://greenkeeper.io/)
+
 ```sh
 $ npm install -g cl-gen
 # OR
