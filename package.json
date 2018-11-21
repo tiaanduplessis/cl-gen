@@ -22,7 +22,7 @@
   "keywords": ["changelog", "cl", "generator", "markdown"],
   "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
   "devDependencies": {
-    "husky": "^0.14.3",
+    "husky": "^1.2.0",
     "jest": "^21.0.2",
     "prettier-standard": "^7.0.1"
   },
