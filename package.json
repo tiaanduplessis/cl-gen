@@ -27,7 +27,7 @@
     "prettier-standard": "^7.0.1"
   },
   "dependencies": {
-    "cac": "^4.2.1",
+    "cac": "^6.1.1",
     "is-semver": "^1.0.7",
     "semver-sort": "^0.0.4"
   }
