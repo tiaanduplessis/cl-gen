@@ -38,7 +38,7 @@ async function run (input, { stdout, title, output, pattern }) {
     const formattedCommits = formatCommits(commits)
 
     if (stdout) {
-      console.log(formatCommits)
+      console.log(formattedCommits)
       return
     }
 
