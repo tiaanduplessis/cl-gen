@@ -11,16 +11,16 @@ const cac = require('cac')
 
 const cli = cac()
 
-const defaultCommand = cli.command('*', 'Generate a new changelog', run)
+cli.command('*', 'Generate a new changelog', run)
 
-defaultCommand.option('title', 'The title of the changelog')
-defaultCommand.option('pattern', {
+cli.option('title', 'The title of the changelog')
+cli.option('pattern', {
   desc:
     'Regular expression to match commit messages to be included in the changelog',
   default: '(added|removed|changed|fixed)'
 })
-defaultCommand.option('stdout', 'Will print results to stdout')
-defaultCommand.option('output', {
+cli.option('stdout', 'Will print results to stdout')
+cli.option('output', {
   desc: 'File to write changelog to',
   default: 'CHANGELOG.md'
 })
