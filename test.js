@@ -38,6 +38,7 @@ function runCli (options, fixture) {
     'is-semver': tag => tag === '1.0.0',
     'semver-sort': { desc: tags => tags },
     cac: () => ({
+      option: command.option,
       command (name, description, callback) {
         run = callback
         return command
